@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body class="font-sans">
+    <!-- Header -->
+    <header>
+      <nav class="bg-[#0f1111] text-white">
+        <div class="flex items-center justify-evenly h-16">
+          <div class="bg-contain bg-no-repeat w-24 h-12 bg-[url('images/amazon_logo.png')]"></div>
+          <div class="flex items-center border p-2 hover:border-white">
+            <p class="text-gray-300 text-sm mr-2">Deliver to</p>
+            <div class="flex items-center font-bold text-base">
+              <i class="fa-solid fa-location-dot mr-1"></i>
+              <p>India</p>
+            </div>
+          </div>
+          <div class="flex items-center bg-pink-200 w-3/5 h-12 rounded">
+            <select class="bg-gray-200 w-12 text-center rounded-l outline-none">
+              <option>All</option>
+              <option>Electronics</option>
+              <option>Beauty Picks</option>
+              <option>Clothes</option>
+            </select>
+            <input placeholder="Search Amazon" class="w-full px-2 text-base outline-none" />
+            <div class="flex items-center justify-center w-12 text-lg text-black bg-yellow-500 rounded-r">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="flex flex-col border p-2 hover:border-white">
+            <span class="text-sm">Hello, Sign in</span>
+            <p class="text-sm font-bold">Account & Lists</p>
+          </div>
+          <div class="flex flex-col border p-2 hover:border-white">
+            <span class="text-sm">Returns</span>
+            <p class="text-sm font-bold">& Orders</p>
+          </div>
+          <div class="flex items-center text-sm font-bold">
+            <i class="fa-solid fa-cart-shopping text-lg mr-1"></i>
+            Cart
+          </div>
+        </div>
+      </nav>
+      <div class="flex items-center justify-evenly h-10 bg-[#232f3e] text-white text-sm">
+        <div class="flex items-center">
+          <i class="fa-solid fa-bars mr-2"></i>
+          All
+        </div>
+        <div class="flex space-x-4">
+          <p>Today's Deals</p>
+          <p>Customer Service</p>
+          <p>Registry</p>
+          <p>Gift Card</p>
+          <p>Sell</p>
+        </div>
+        <p class="font-bold">Shop deals in Electronics</p>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="flex items-end justify-center h-[350px] bg-cover bg-[url('images/hero_image.jpg')]">
+      <div class="bg-white text-black text-sm flex items-center justify-center h-10 w-11/12 mb-6">
+        You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. 
+        <a href="https://www.amazon.in" class="text-blue-600 ml-1">Click here to go to amazon.in</a>
+      </div>
+    </div>
+
+    <!-- Shop Section -->
+    <div class="flex flex-wrap justify-evenly bg-gray-200 py-8">
+      <div class="bg-white p-4 m-2 w-1/5 text-center">
+        <h2 class="text-lg font-semibold mb-4">Health & Personal Care</h2>
+        <div class="bg-cover h-72" style="background-image: url('images/box2_image.jpg');"></div>
+        <p class="text-blue-700 mt-2">See More</p>
+      </div>
+      <div class="bg-white p-4 m-2 w-1/5 text-center">
+        <h2 class="text-lg font-semibold mb-4">Clothes</h2>
+        <div class="bg-cover h-72" style="background-image: url('images/box1_image.jpg');"></div>
+        <p class="text-blue-700 mt-2">See More</p>
+      </div>
+      <div class="bg-white p-4 m-2 w-1/5 text-center">
+        <h2 class="text-lg font-semibold mb-4">Furniture</h2>
+        <div class="bg-cover h-72" style="background-image: url('images/box3_image.jpg');"></div>
+        <p class="text-blue-700 mt-2">See More</p>
+      </div>
+      <div class="bg-white p-4 m-2 w-1/5 text-center">
+        <h2 class="text-lg font-semibold mb-4">Electronics</h2>
+        <div class="bg-cover h-72" style="background-image: url('images/box4_image.jpg');"></div>
+        <p class="text-blue-700 mt-2">See More</p>
+      </div>
+      <div class="bg-white p-4 m-2 w-1/5 text-center">
+        <h2 class="text-lg font-semibold mb-4">Beauty Picks</h2>
+        <div class="bg-cover h-72" style="background-image: url('images/box5_image.jpg');"></div>
+        <p class="text-blue-700 mt-2">See More</p>
+      </div>
+      <div class="bg-white p-4 m-2 w-1/5 text-center">
+        <h2 class="text-lg font-semibold mb-4">Pet Care</h2>
+        <div class="bg-cover h-72" style="background-image: url('images/box6_image.jpg');"></div>
+        <p class="text-blue-700 mt-2">See More</p>
+      </div>
+      <div class="bg-white p-4 m-2 w-1/5 text-center">
+        <h2 class="text-lg font-semibold mb-4">New Arrival in Toys</h2>
+        <div class="bg-cover h-72" style="background-image: url('images/box7_image.jpg');"></div>
+        <p class="text-blue-700 mt-2">See More</p>
+      </div>
+      <div class="bg-white p-4 m-2 w-1/5 text-center">
+        <h2 class="text-lg font-semibold mb-4">Discover Fashion Trends</h2>
+        <div class="bg-cover h-72" style="background-image: url('images/box8_image.jpg');"></div>
+        <p class="text-blue-700 mt-2">See More</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#232f3e] text-white">
+      <div class="flex justify-center items-center h-12 bg-[#37475a]">Back to Top</div>
+      <div class="flex justify-evenly h-72 text-sm">
+        <ul class="space-y-2">
+          <li><p class="font-semibold">Get to Know Us</p></li>
+          <li>Careers</li>
+          <li>Blog</li>
+          <li>About Amazon</li>
+          <li>Investor Relations</li>
+          <li>Amazon Devices</li>
+          <li>Amazon Science</li>
+        </ul>
+        <ul class="space-y-2">
+          <li><p class="font-semibold">Make Money with Us</p></li>
+          <li>Sell on Amazon</li>
+          <li>Amazon Business</li>
+          <li>Affiliate Program</li>
+          <li>Self-Publish</li>
+          <li>Advertise Your Products</li>
+        </ul>
+        <ul class="space-y-2">
+          <li><p class="font-semibold">Amazon Payment Products</p></li>
+          <li>Amazon Rewards</li>
+          <li>Amazon Credit Cards</li>
+          <li>Gift Cards</li>
+          <li>Shop with Points</li>
+          <li>Reload Balance</li>
+        </ul>
+        <ul class="space-y-2">
+          <li><p class="font-semibold">Let Us Help You</p></li>
+          <li>Amazon Support</li>
+          <li>Shipping Rates</li>
+          <li>Returns</li>
+          <li>Manage Account</li>
+          <li>Amazon Assistant</li>
+          <li>Customer Service</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
